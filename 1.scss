@@ -1,0 +1,74 @@
+$primary-color: #0b113c;
+$secundary-color: #080f33;
+$link-color: #f33f79;
+$link-hover: #ee2f6b;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.forma {
+  padding: 160px 80px;
+  padding-top: 120px;
+
+  background-image: radial-gradient(
+    circle,
+    #0f163b,
+    #0f163b,
+    #0c1338,
+    #081135,
+    #060d32
+  );
+  margin-top: 100px;
+  border-radius: 14px;
+}
+
+.zab {
+  cursor: pointer;
+  color: $link-color;
+  &:hover {
+    color: $link-hover;
+  }
+}
+input {
+  font-size: large;
+  background-color: $secundary-color;
+  color: white;
+  padding: 10px 5px;
+  border: 1px #13183e solid;
+  border-radius: 4px;
+}
+.btn {
+  border-radius: 2px;
+  background-color: $link-color;
+
+  &:hover {
+    background-color: $link-hover;
+  }
+}
+.oblik {
+  border-radius: 64% 100% 100% 60% / 60% 74% 84% 61%;
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+  position: absolute;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+.oblik2 {
+  border-radius: 64% 100% 100% 60% / 60% 74% 84% 61%;
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 73.3%;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    rgba(252, 70, 107, 1) 0%,
+    rgba(63, 94, 251, 1) 100%
+  );
+}
