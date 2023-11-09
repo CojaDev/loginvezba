@@ -6,6 +6,7 @@ $link-hover: #ee2f6b;
 body {
   margin: 0;
   padding: 0;
+  background-color: #050d33;
 }
 .forma {
   padding: 160px 80px;
@@ -13,11 +14,11 @@ body {
 
   background-image: radial-gradient(
     circle,
-    #0f163b,
-    #0f163b,
-    #0c1338,
-    #081135,
-    #060d32
+    #121b47,
+    #121b47,
+    #0e1641,
+    #09143d,
+    #08113d
   );
   margin-top: 100px;
   border-radius: 14px;
@@ -36,6 +37,7 @@ input {
   color: white;
   padding: 10px 5px;
   border: 1px #13183e solid;
+  width: 100%;
   border-radius: 4px;
 }
 .btn {
@@ -71,4 +73,10 @@ input {
     rgba(252, 70, 107, 1) 0%,
     rgba(63, 94, 251, 1) 100%
   );
+}
+@media only screen and (max-width: 600px) {
+  .forma {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

@@ -1,12 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #050d33;
 }
 
 .forma {
   padding: 160px 80px;
   padding-top: 120px;
-  background-image: radial-gradient(circle, #0f163b, #0f163b, #0c1338, #081135, #060d32);
+  background-image: radial-gradient(circle, #121b47, #121b47, #0e1641, #09143d, #08113d);
   margin-top: 100px;
   border-radius: 14px;
 }
@@ -25,6 +26,7 @@ input {
   color: white;
   padding: 10px 5px;
   border: 1px #13183e solid;
+  width: 100%;
   border-radius: 4px;
 }
 
@@ -59,4 +61,11 @@ input {
   background: rgb(63, 94, 251);
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(252, 70, 107)), to(rgb(63, 94, 251)));
   background: linear-gradient(rgb(252, 70, 107) 0%, rgb(63, 94, 251) 100%);
+}
+
+@media only screen and (max-width: 600px) {
+  .forma {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
